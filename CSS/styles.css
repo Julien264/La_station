@@ -14,10 +14,16 @@ html{
 COMPONENTS
 -----------------------------*/
 
+.wrapper{
+    max-width: 1200px;
+    padding-right: auto;
+    padding-left: auto;
+}
 
 
-
-
+.hero{
+    background-image: url(../images/section.hero.jpg);
+}
 
 .menu{
     display: flex;
@@ -25,4 +31,9 @@ COMPONENTS
 nav{
     display: flex;
     justify-content: flex-end;
+}
+
+
+h2{
+    color: #0E5EA1;
 }
