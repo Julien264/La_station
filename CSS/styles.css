@@ -1,0 +1,28 @@
+/*-----------------------------
+GÉNÉRIQUE
+-----------------------------*/
+html{
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+/*-----------------------------
+COMPONENTS
+-----------------------------*/
+
+
+
+
+
+
+.menu{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
