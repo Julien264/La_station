@@ -16,6 +16,7 @@ html{
 body{
     padding: 0;
     margin: 0;
+    background-color: #eeeeee;
 
     font-family: "Roboto";
 }
@@ -23,6 +24,8 @@ body{
 h1{
     color: #ffffff;
     font-family: "Dosis";
+    font-size: 50px;
+    font-weight: bold;
 }
 
 h2{
@@ -38,6 +41,10 @@ h3{
     font-weight: bold;
     font-family: "Dosis";
     font-size: 24px;
+}
+
+a{
+    text-transform: uppercase;
 }
 
 
@@ -60,6 +67,7 @@ COMPONENTS
 .header{
     padding-top: 8px;
     padding-bottom: 8px;
+    background-color: #ffffff;
 }
 
 
@@ -87,6 +95,7 @@ nav{
     font-size: 16px;
     font-weight: bold;
     font-family: "Dosis";
+    
 }
 
 
@@ -97,13 +106,15 @@ nav{
 
 .menu{
     display: flex;
-    gap:30px;
+    gap:20px;
     list-style-type: none;
 }
 
 .menu a{
 color: #000000;
 text-decoration: none;
+padding: 4px 11px;
+border-radius: 5px;
 }
 
 .menu a:hover{
@@ -116,12 +127,57 @@ text-decoration: none;
 
 .hero{
     background-image: url(../images/section.hero1.jpg);
-    padding: 134px;
+    
+    
+}
+
+.hero .wrapper{
+    height: 450px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.hero p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 40px;
+
 }
 
 /* contenu */
 article{
     background-color: #ffffff;
+    padding: 20px;
+    gap: 25px;
+}
+
+article a{
+    color: #000000;
+    background-color: #B7B7B7;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Dosis";
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+article a:hover{
+    background-color: #0E5EA1;
+    color: #ffffff;
+}
+
+.conteneur-carte{
+    display: flex;
+    gap: 30px;
 }
 /* footer */
 
