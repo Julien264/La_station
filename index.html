@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La station</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/normalize.css">
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header class="header">
         <div class="wrapper">
-            <div class="menu">
-               <a href=""> <img src="images/logo.png" alt="Logo"> La station</a>
+               <a href="" class="logo"> <img src="images/logo.png" alt="Logo"> La station</a>
                 
                 <nav>
-                    <ul>
+                    <ul class="menu">
                             <li><a href="#">Accueil</a></li>
                             <li><a href="#">Produits</a></li>
                             <li><a href="#">Nous contacter</a></li>
                             <li><a href="#">Accès client</a></li>
                     </ul>
                 </nav>
-            </div>   
         </div>
 
     </header>
@@ -29,6 +31,7 @@
     <section class="hero">
         <div class="wrapper">
             <h1>Venez skier dans les nuages</h1>
+            <p>Réservez dès maintenant</p>
         </div>
     </section>
 
@@ -45,6 +48,7 @@
                 <p>
                     Dévalez des pentes immaculées, explorez des parcours pour tous les niveaux et vivez l’hiver à pleine vitesse, entre poudreuse et panoramas grandioses.
                 </p>
+                <a href="">en savoir plus</a>
             </article>
             <article>
                 <img src="images/chalet.jpg" alt="chalet">
@@ -54,6 +58,7 @@
                <p>
                 Après l’effort, place au réconfort : chalets douillets, suites avec vue et instants de détente absolue, au cœur d’un décor alpin apaisant.
                </p>
+               <a href="">en savoir plus</a>
             </article>
             <article>
                 <img src="images/architecture.jpg" alt="architecture">
@@ -63,6 +68,7 @@
                 <p>
                     Ski, randonnée, vélo de montagne ou spa : chaque saison dévoile son lot d’aventures et de moments inoubliables.
                 </p>
+                <a href="">en savoir plus</a>
             </article>
 
             <img src="images/banniere.jpg" alt="banniere">
@@ -71,7 +77,9 @@
     </section>
 
     <footer>
-        <p>La Station 2026 © Tous droits réservés</p>
+        <div class="wrapper">
+            <p>La Station 2026 © Tous droits réservés</p>
+        </div>
     </footer>
 
 
