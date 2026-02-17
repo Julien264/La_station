@@ -179,6 +179,16 @@ article a:hover{
     display: flex;
     gap: 30px;
 }
+
+/* banniere */
+
+.wrapper .banniere{
+padding: 80px;
+display: flex;
+justify-content: left;
+align-items: left;
+}
+
 /* footer */
 
 
@@ -186,4 +196,8 @@ article a:hover{
 footer{
     color: #ffffff;
    background-color: #000000; 
+   padding: 24px;
+   display: flex;
+   justify-content: right;
+   align-items: right;
 }
